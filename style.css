@@ -54,8 +54,8 @@ main {
 
 #redes_sociais > a > img:hover {
     transform: scale(1.2);
-    border: 2px solid rgba(255, 255, 255, 0.767);
+    border: 2px solid rgb(255, 255, 255);
     transform: translate(-2px, -2px);
     box-shadow: 6px 6px 6px rgba(14, 14, 14, 0.6462);
-    transition: transform 0.2s, border 0.2s;
+    transition: transform 0.2s;
 }
