@@ -41,7 +41,7 @@ main {
 #redes_sociais {
     display: flex;
     flex-flow: column wrap;
-    text-align: right;
+    align-items: flex-end;
     padding-top: 70px;
     padding-right: 10px;
 }
