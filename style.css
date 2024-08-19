@@ -40,17 +40,18 @@ main {
 
 #redes_sociais {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: flex-end;
+    justify-content: space-between;
     padding-top: 70px;
     padding-right: 10px;
+    height: 300px;
 }
 
 #redes_sociais > a > img {
     height: 50px;
     border-radius: 50%;
     box-shadow: 3px 3px 6px rgba(14, 14, 14, 0.6462);
-    margin-bottom: 9px;
     box-sizing: border-box;
 }
 
